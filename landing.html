@@ -37,10 +37,12 @@
     .hero-bg {
       min-height: 100vh;
       background:
-        radial-gradient(circle at top left, rgba(59,130,246,0.16), transparent 28%),
-        radial-gradient(circle at top right, rgba(20,184,166,0.16), transparent 26%),
-        radial-gradient(circle at bottom left, rgba(251,191,36,0.15), transparent 24%),
-        linear-gradient(135deg, #f8fbff 0%, #eef4fb 48%, #f9fcff 100%);
+        radial-gradient(circle at 14% 12%, rgba(59,130,246,0.12), transparent 24%),
+        radial-gradient(circle at 84% 14%, rgba(20,184,166,0.11), transparent 22%),
+        radial-gradient(circle at 50% 58%, rgba(251,191,36,0.08), transparent 28%),
+        radial-gradient(circle at 50% 92%, rgba(148,163,184,0.08), transparent 22%),
+        linear-gradient(180deg, #fbfdff 0%, #f4f8fd 38%, #eef6fb 72%, #f9fcff 100%);
+      background-attachment: fixed;
     }
 
     .glass-panel {
@@ -96,19 +98,13 @@
     <div class="hero-orb top-10 right-4 h-80 w-80 bg-teal-100"></div>
     <div class="hero-orb bottom-[-6rem] left-1/3 h-96 w-96 bg-amber-100"></div>
 
-    <div class="relative mx-auto flex min-h-screen w-full max-w-7xl flex-col px-4 pt-5 pb-2 sm:px-6 lg:px-8 justify-between">
-      <header class="flex items-center justify-between rounded-full border border-white/70 glass-panel px-5 py-3 shadow-lg shadow-slate-200/50">
-        <div class="flex items-center gap-3">
-          <div class="flex h-11 w-11 items-center justify-center rounded-2xl bg-brand-900 text-white shadow-lg shadow-brand-900/20">
-            <i class="fa-solid fa-layer-group text-lg"></i>
-          </div>
-          <div>
-            <p class="text-sm font-semibold text-slate-600">Automation Grouping</p>
-            <p class="text-xs text-slate-400">Organize student data into structured groups</p>
-          </div>
+    <div class="relative mx-auto flex min-h-screen w-full max-w-7xl flex-col px-4 pt-5 pb-2 sm:px-6 lg:px-8">
+     <div class="flex items-center gap-3">
+          
         </div>
       </header>
 
+      <div class="flex-1 flex flex-col gap-8">
       <section class="grid flex-1 items-center gap-10 py-8 lg:grid-cols-[1.05fr_0.95fr] lg:py-10">
         <div class="space-y-8">
           <div class="space-y-5 max-w-3xl">
@@ -152,7 +148,7 @@
               <div class="mt-2 flex items-center gap-3">
                 <div class="flex h-10 w-10 items-center justify-center rounded-2xl bg-brand-100 text-brand-700 font-black">ID</div>
                 <div>
-                  <p class="text-sm font-bold text-slate-800">Dr. Irfan Dzaki</p>
+                  <p class="text-sm font-bold text-slate-800">Dr. Joye Maseudiah</p>
                   <p class="text-[11px] text-slate-400">Computer Science</p>
                 </div>
               </div>
@@ -256,9 +252,10 @@
           <p class="mt-2 text-sm leading-relaxed text-slate-500">Export the grouped result into a clean file that is ready to share or present immediately.</p>
         </article>
       </section>
+      </div>
     
       <footer class="mt-auto flex flex-col gap-2 border-t border-white/70 pt-5 pb-1 text-center text-xs text-slate-400 sm:flex-row sm:items-center sm:justify-between sm:text-left">
-        <p>© Ed Msdyh — All rights reserved</p>
+        <p>© 2026 Ed Msdyh  — All rights reserved</p>
         <p>Simple entry page for uploading and grouping data.</p>
       </footer>
     </div>
